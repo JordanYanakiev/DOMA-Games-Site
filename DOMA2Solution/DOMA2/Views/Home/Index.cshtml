@@ -1,0 +1,100 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<!Doctype html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title> Fullscreen Div </title>
+     <style>
+        .overlay {
+              position: relative;
+              top: 0;
+              left: 0;
+              bottom: 0;
+              right: 0;
+              overflow: auto;
+              /*background: aqua;*/ /* Just to visualize the extent */
+        }
+
+        div.rightsidepost {
+          position: absolute;
+          top: 240px;
+          right: 90px;
+          width: 500px;
+          height: 100px;
+          z-index:501;
+          /*border: 3px solid #73AD21;*/
+        }
+        
+        div.rightsidepost01 {
+          position: absolute;
+          top: 1380px;
+          right: 90px;
+          width: 500px;
+          height: 100px;
+          z-index:501;
+          /*border: 3px solid #73AD21;*/
+        }
+        div.leftsidepost {
+          position: absolute;
+          top: 300px;
+          right: 550px;
+          width: 500px;
+          height: 100px;
+          z-index:501;
+          /*border: 3px solid #73AD21;*/
+        }
+
+         .image-resize {
+             background-size: 10% ;
+         }
+        
+    </style>
+</head>
+<div>
+
+    <div class="text-center">
+        <h1 class="display-4 center" style="color:white;font-family: Consolas">Memory Inventory</h1>
+        <p style="color:white; font-family: Consolas; position: center;">
+            "Memory Inventory" is simple, elegant game for memory training. It is the second published game
+            of DOMA Games. You can <a href="@Url.Action("MemoryInventory", "Games" )">learn more here</a>.
+        </p>
+        <p>
+
+            <img src="~/css/Content/GAMES/Memory Inventory/screenshot_20201126-191228_memoryinventory.jpg" class="center" style="width: auto; height: 600px;" />
+        </p>
+    </div>
+
+
+
+    <div class="center" style="width: 900px; margin-left: -100px;">
+        <h1 class="display-4 center text-center" style="color:white; font-family: Consolas">Land on green is here</h1>
+        <p style="color:white;">
+
+            <img src="~/css/Content/GAMES/Land On Green/GameScreen01_3700x1920.png" class="center" style="width: 600px; height: auto;" /> <br>
+        </p>
+        <p style="color:white; font-family: Consolas" class="center">
+            "Land On Green" is the first game released by DOMA Games.
+            It combines familiar gameplay experience with new graphics.
+            You can <a href="@Url.Action("LandOnGreen", "Games" )">learn more here</a>.
+        </p>
+    </div>
+
+
+
+
+
+
+    <div class="text-center">
+        <h1 class="display-4" style="color:white; ont-family: Consolas"></h1>
+        <p style="color:white; font-family: Consolas">
+            
+        </p>
+    </div>
+</div>
+
+
+
+
+</html>

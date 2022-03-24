@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29326.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DOMA2", "DOMA2\DOMA2.csproj", "{FD0FABD2-F196-4CEB-AB8B-35A58A9E2F1F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD0FABD2-F196-4CEB-AB8B-35A58A9E2F1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD0FABD2-F196-4CEB-AB8B-35A58A9E2F1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD0FABD2-F196-4CEB-AB8B-35A58A9E2F1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD0FABD2-F196-4CEB-AB8B-35A58A9E2F1F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1443235F-436E-44E0-82C9-887807149933}
+	EndGlobalSection
+EndGlobal

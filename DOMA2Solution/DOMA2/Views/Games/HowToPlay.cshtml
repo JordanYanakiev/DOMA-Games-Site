@@ -1,0 +1,43 @@
+﻿
+@{
+    ViewData["Title"] = "HowToPlay";
+}
+
+
+<!Doctype>
+<html>
+<head>
+    <style>
+        .button1 {
+            width: 220px;
+        }
+
+        .button2 {
+            width: 220px;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <div class="center" style="width: 100px; height: 20px; "></div>
+    <h1 style="color:white; font-family:'Consolas'"><center>Game Instructions</center></h1>
+    </div>
+
+
+    <div class="center" style="background-color: black; width: 250px; height: 280px; margin-left: 320px; ">
+        <img src="~/css/Content/GAMES/Land On Green/Game_Icon.png" style="height: 100px; width: auto;" class="center" /> <p></p>
+        <button style="font-family: Consolas; font-size:22px" class="glow-on-hover button1 center" onclick="location.href='@Url.Action("LandOnGreenHowToPlay", "HowToPlay" )'" />Land On Green</button>
+    </div>
+
+
+    <div class="center" style="background-color: black; width: 250px; height: 280px; margin-left: 780px; margin-top: -280px; ">
+
+        <img src="~/css/Content/GAMES/Memory Inventory/Icon_512x512.png" style="height: 100px; width: auto;" class="center" /> <p></p>
+        <button style="font-family: Consolas; font-size:22px" class="glow-on-hover button2 center" onclick="location.href='@Url.Action("MemoryInventoryHowToPlay", "HowToPlay" )'" />Memory Inventory</button>
+
+    </div>
+</body>
+</html>
